@@ -4,8 +4,8 @@
   "description": "my personal website",
   "main": "index.js",
   "scripts": {
-    "start": "rm -rf .cache dist && parcel index.html",
-    "build": "rm -rf .cache dist && parcel build index.html --public-url ./",
+    "start": "rm -rf .cache dist && parcel index.html --out-dir docs",
+    "build": "rm -rf .cache dist && parcel build index.html --out-dir docs --public-url ./",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
