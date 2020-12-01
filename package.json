@@ -1,0 +1,22 @@
+{
+  "name": "burcakkose.github.io",
+  "version": "0.0.1",
+  "description": "my personal website",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf .cache dist && parcel index.html",
+    "build": "rm -rf .cache dist && parcel build index.html --public-url ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burcakkose/burcakkose.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burcakkose/burcakkose.github.io/issues"
+  },
+  "homepage": "https://github.com/burcakkose/burcakkose.github.io#readme"
+}
